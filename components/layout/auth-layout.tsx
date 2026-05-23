@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 
 export interface AuthLayoutProps {
@@ -34,10 +33,10 @@ export function AuthLayout({
         <div>
           <blockquote className="space-y-4">
             <p className="text-lg font-semibold">
-              "이 스타터킷으로 빠르게 웹 프로젝트를 시작하세요."
+              &quot;이 스타터킷으로 빠르게 웹 프로젝트를 시작하세요.&quot;
             </p>
             <footer className="text-sm text-slate-400">
-              — 개발자 커뮤니티
+              &mdash; 개발자 커뮤니티
             </footer>
           </blockquote>
         </div>

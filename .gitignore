@@ -24,3 +24,6 @@ dist/
 # Build
 .cache/
 coverage/
+
+# Claude Code
+.claude/settings.local.json

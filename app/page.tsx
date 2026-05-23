@@ -1,6 +1,6 @@
 'use client';
 
-import { Github, Zap, Code2, Palette, Zap as ZapIcon } from 'lucide-react';
+import { Github, Zap as ZapIcon } from 'lucide-react';
 import Link from 'next/link';
 import { DefaultLayout } from '@/components/layout/default-layout';
 import { Button } from '@/components/ui/button';

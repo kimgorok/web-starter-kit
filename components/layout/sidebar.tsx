@@ -10,7 +10,7 @@ import {
   SheetContent,
   SheetTrigger,
 } from '@/components/ui/sheet';
-import { Menu, X, LayoutDashboard, Settings, LogOut } from 'lucide-react';
+import { Menu, LayoutDashboard, Settings, LogOut } from 'lucide-react';
 
 export interface NavItem {
   label: string;
@@ -26,7 +26,7 @@ export interface SidebarProps {
 }
 
 export function Sidebar({ navItems = [], logo = 'WSK', title = 'Dashboard' }: SidebarProps) {
-  const { isOpen, toggle } = useSidebar();
+  const { isOpen } = useSidebar();
   const isDesktop = useMediaQuery('(min-width: 768px)');
 
   if (!isDesktop) {
@@ -61,12 +61,11 @@ export function Sidebar({ navItems = [], logo = 'WSK', title = 'Dashboard' }: Si
 }
 
 function SidebarContent({
-  navItems,
-  logo,
-  title,
+  navItems = [],
+  logo = 'WSK',
+  title = 'Dashboard',
   collapsed = false,
 }: SidebarProps & { collapsed?: boolean }) {
-  const { toggle } = useSidebar();
 
   return (
     <div className="flex flex-col h-full">

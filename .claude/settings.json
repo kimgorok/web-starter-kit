@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "Agent",
+      "Monitor",
+      "PowerShell",
+      "NotebookEdit",
+      "Bash(git *)",
+      "Bash(npm *)",
+      "Bash(npm run *)"
+    ],
+    "defaultMode": "acceptEdits"
+  }
+}

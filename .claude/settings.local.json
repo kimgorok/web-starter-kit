@@ -10,7 +10,11 @@
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\khj\\\\workspace\\\\starter-kit\\\\app\" -Recurse -Force | ForEach-Object { $_.FullName })",
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\khj\\\\workspace\\\\starter-kit\\\\components\" -Recurse -Force | ForEach-Object { $_.FullName })",
       "Bash(pkill -f \"next dev\")",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "PowerShell(taskkill *)",
+      "Skill(update-config)",
+      "PowerShell(Get-Process *)",
+      "WebFetch(domain:localhost)"
     ]
   }
 }

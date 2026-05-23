@@ -20,6 +20,7 @@ const Avatar = React.forwardRef<HTMLDivElement, AvatarProps>(
       {...props}
     >
       {src ? (
+        // eslint-disable-next-line @next/next/no-img-element
         <img src={src} alt={alt} className="h-full w-full object-cover" />
       ) : (
         <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-primary to-primary/50">
