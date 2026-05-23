@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\khj\\\\workspace\\\\starter-kit\")",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "PowerShell(npm *)",
+      "Bash(git init *)",
+      "Read(//home/khj/workspace/**)",
+      "Bash(npm install *)"
+    ]
+  }
+}
