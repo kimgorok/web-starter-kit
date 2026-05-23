@@ -6,7 +6,11 @@
       "PowerShell(npm *)",
       "Bash(git init *)",
       "Read(//home/khj/workspace/**)",
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\khj\\\\workspace\\\\starter-kit\\\\app\" -Recurse -Force | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\khj\\\\workspace\\\\starter-kit\\\\components\" -Recurse -Force | ForEach-Object { $_.FullName })",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(npm run *)"
     ]
   }
 }
