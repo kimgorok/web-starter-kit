@@ -44,7 +44,7 @@ export default function Home() {
                 <Link href="/components">컴포넌트 보기</Link>
               </Button>
               <Button variant="outline" asChild>
-                <Link href="https://github.com" target="_blank">
+                <Link href="https://github.com/kimgorok" target="_blank">
                   <Github className="w-4 h-4 mr-2" />
                   GitHub
                 </Link>
