@@ -14,7 +14,9 @@
       "PowerShell(taskkill *)",
       "Skill(update-config)",
       "PowerShell(Get-Process *)",
-      "WebFetch(domain:localhost)"
+      "WebFetch(domain:localhost)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\khj\\\\workspace\\\\starter-kit\\\\.claude\\\\agents\")",
+      "Bash(rm \"C:\\\\Users\\\\khj\\\\workspace\\\\starter-kit\\\\.claude\\\\agents.json\")"
     ]
   }
 }
