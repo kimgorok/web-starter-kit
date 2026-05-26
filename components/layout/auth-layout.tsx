@@ -20,7 +20,7 @@ export function AuthLayout({
   return (
     <div className="flex min-h-screen">
       {/* 좌측 브랜딩 패널 */}
-      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex-col justify-between p-12 text-white">
+      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-green-950 via-green-900 to-green-950 flex-col justify-between p-12 text-white">
         <div>
           <Link href="/" className="font-bold text-2xl flex items-center gap-2">
             <div className="h-10 w-10 rounded bg-gradient-to-br from-blue-400 to-cyan-400 flex items-center justify-center font-bold text-slate-900">

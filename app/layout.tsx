@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko" suppressHydrationWarning>
-      <body>
+      <body className="min-h-screen bg-gradient-to-br from-green-950 via-green-900 to-green-950">
         <Providers>{children}</Providers>
       </body>
     </html>

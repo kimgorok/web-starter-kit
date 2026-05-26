@@ -16,7 +16,7 @@ export default function Home() {
         ],
       }}
     >
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+      <div className="min-h-screen bg-gradient-to-br from-green-950 via-green-900 to-green-950">
         {/* 히어로 섹션 */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center">
