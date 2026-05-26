@@ -11,7 +11,6 @@ export default function Home() {
       header={{
         navItems: [
           { label: 'Components', href: '/components' },
-          { label: 'Examples', href: '/examples/dashboard' },
           { label: 'Docs', href: '#' },
         ],
       }}
