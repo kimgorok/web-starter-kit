@@ -13,7 +13,9 @@
       "NotebookEdit",
       "Bash(git *)",
       "Bash(npm *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "mcp_sequential-thinking",
+      "mcp_shadcn"
     ],
     "defaultMode": "acceptEdits"
   },
