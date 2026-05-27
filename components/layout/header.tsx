@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ThemeToggle } from '@/components/common/theme-toggle';
+import { Button } from '@/components/ui/button';
 
 export interface NavItem {
   label: string;
@@ -11,6 +12,7 @@ export interface HeaderProps {
   title?: string;
   navItems?: NavItem[];
   showThemeToggle?: boolean;
+  showLoginButton?: boolean;
 }
 
 export function Header({
@@ -18,6 +20,7 @@ export function Header({
   title = 'Web Starter Kit',
   navItems = [],
   showThemeToggle = true,
+  showLoginButton = true,
 }: HeaderProps) {
   return (
     <header className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -46,6 +49,11 @@ export function Header({
 
           {/* 우측 액션 */}
           <div className="flex items-center gap-2">
+            {showLoginButton && (
+              <Button asChild variant="ghost" size="sm">
+                <Link href="/login">로그인</Link>
+              </Button>
+            )}
             {showThemeToggle && <ThemeToggle />}
           </div>
         </div>
